@@ -1,0 +1,370 @@
+    1  ls
+    2  unzip semana1.zip
+    3  cd semana1
+    4  python3 helloworld.py
+    5  python3 hellow-world.py
+    6  python3 hello-world.py
+    7  ls readme.first
+    8  g++ hello-world.c
+    9  g++ hello-world.c ls
+   10  g++ hello-world.c -o hello-world
+   11  gcc hello-world.c -o hello-world
+   12  ./hello-world
+   13  ls -F
+   14  pwd
+   15  man wc
+   16  apropos column
+   17  wc -c semana1
+   18  wc
+   19  pwd
+   20  cd ~
+   21  cd        Memory Usage:   0/31 GB
+   22          Memory Usage:   0/31 GB
+   23  semana1/
+   24  /
+   25  cd ~/
+   26  cd home
+   27  cd pwd
+   28  pwd
+   29  cd ..
+   30  ld -F
+   31  ls -F
+   32  cd /home
+   33  cd /home/tlim
+   34  cd ~
+   35  mkdir problemsets
+   36  ls
+   37  cd problemsets
+   38  pwd
+   39  wget https://raw.githubusercontent.com/labbces/cen0336/master/files/sequences.nt.fa
+   40  ls
+   41  wc -l
+   42  cd problemsets
+   43  pwd
+   44  ls
+   45  wc -l sequences.nt.fa
+   46  wc -c sequences.nt.fa
+   47  man head
+   48  head sequences.nt.fa
+   49  tail sequences.nt.fa
+   50  man grep
+   51  grep > sequences.nt.fa
+   52  grep sequences.nt.fa >
+   53  man grep
+   54  grep -g > sequences.nt.fa
+   55  grep >. sequences.nt.fa
+   56  grep > sequences.nt.fa
+   57  man mv
+   58  mv sequences.nt.fa cancer.genes.fasta
+   59  ls
+   60  pwd
+   61  wget https://raw.githubusercontent.com/labbces/cen0336/master/files/cuffdiff.txt
+   62  head cuffdiff.txt
+   63  oi
+   64  grep '>' cancer.genes.fasta
+   65  grep > | wc -l
+   66  grep '>' | wc -l
+   67  grep '>' | wc -l cancer.genes.fasta
+   68  echo "# programacao" >> README.md
+   69  git init
+   70  git add README.md
+   71  git commit -m "first commit"
+   72  git branch -M main
+   73  git remote add origin https://github.com/tlim25/programacao.git
+   74  git push -u origin main
+   75  pwd
+   76  cd problemsets
+   77  pwd
+   78  ls
+   79  man head
+   80  head -n cuffdiff.txt
+   81  man head
+   82  head --lines=5 cuffdiff.txt
+   83  man sort
+   84  dria% nano primeiro_arquivo_nano.txt
+   85  nano primeiro_arquivo_nano.txt
+   86  vi first_vi_file.txt
+   87  :
+   88  vi first_vi_file.txt
+   89  echo "# PFB_problemsets" >> README.md
+   90  git init
+   91  git add README.md
+   92  git commit -m "first commit"
+   93   git config --global user.email "taisb_lima@usp.com.br"
+   94  git config --global user.name "Tais Lima"
+   95  git commit -m "first commit"
+   96  git branch -M main
+   97  git remote add origin https://github.com/tlim25/PFB_problemsets.git
+   98  git push -u origin main
+   99  git config --global user.email "taisb_lima@usp.com.br"
+  100  git config --global user.name "Tais Lima"
+  101  git commit -m "first commit"
+  102  git push -u origin main
+  103  ls
+  104  cd problemsets
+  105  ls
+  106  cd PFB_problemsets
+  107  echo "# PFB_problemsets" >> README.md
+  108  git init
+  109  git add README.md
+  110  git commit -m "first commit"
+  111  git branch -M main
+  112  git remote add origin https://github.com/tlim25/PFB_problemsets.git
+  113  git push -u origin main
+  114  pwd
+  115  mkdir GitHub
+  116  cd GitHub
+  117  ls
+  118  echo "# PFB_problemsets" >> README.md
+  119  git init
+  120  git add README.md
+  121  git commit -m "first commit"
+  122  git branch -M main
+  123  git remote add origin https://github.com/tlim25/PFB_problemsets.git
+  124  git push -u origin main
+  125  ls
+  126  cd problemsets
+  127  ls
+  128  head cuffdiff.txt
+  129  man sort
+  130  sort -n -r -k 10 cuffdiff.txt | head
+  131  sort -n -r -k 10 cuffdiff.txt > sorted.cuffdiff.out
+  132  ls
+  133  head sorted.cuffdiff.out
+  134  man head
+  135  head -n 100 sorted.cuffdiff.out
+  136  head -n 10 sorted.cuffdiff.out
+  137  head -n 100 sorted.cuffdiff.out > top100.sorted.cuffdiff.out
+  138  ls
+  139  man sort
+  140  man cut
+  141  cut -c 1 top100.sorted.cuffdiff.out
+  142  cut -c 1,13  top100.sorted.cuffdiff.out
+  143  cut -c 1-13  top100.sorted.cuffdiff.out
+  144  AC234163.1_FG
+  145  GRMZM2G022958
+  146  GRMZM2G127087
+  147  GRMZM2G169033
+  148  GRMZM2G019090
+  149  GRMZM2G456217
+  150  GRMZM2G161521
+  151  GRMZM2G015933
+  152  GRMZM2G147774
+  153  GRMZM2G170017
+  154  GRMZM2G036629
+  155  GRMZM2G057116
+  156  GRMZM2G181135
+  157  GRMZM2G094375
+  158  GRMZM2G145069
+  159  GRMZM2G149182
+  160  GRMZM2G154870
+  161  GRMZM2G082830
+  162  GRMZM2G456997
+  163  GRMZM2G119322
+  164  GRMZM2G022212
+  165  GRMZM2G018707
+  166  GRMZM2G050450
+  167  GRMZM2G009837
+  168  GRMZM2G018018
+  169  GRMZM2G156632
+  170  GRMZM2G140824
+  171  GRMZM2G028218
+  172  GRMZM2G060940
+  173  GRMZM2G103881
+  174  GRMZM2G379563
+  175  GRMZM2G083350
+  176  GRMZM2G008109
+  177  GRMZM2G135385
+  178  GRMZM2G084779
+  179  GRMZM2G126079
+  180  GRMZM2G431288
+  181  GRMZM2G117971
+  182  GRMZM2G042364
+  183  GRMZM2G179528
+  184  GRMZM2G117491
+  185  GRMZM2G135722
+  186  GRMZM2G354956
+  187  GRMZM2G342685
+  188  GRMZM2G139535
+  189  GRMZM2G358153
+  190  GRMZM2G333635
+  191  GRMZM2G025109
+  192  GRMZM2G031504
+  193  GRMZM2G399530
+  194  GRMZM2G156599
+  195  GRMZM2G420988
+  196  GRMZM2G000236
+  197  GRMZM2G156877
+  198  GRMZM2G079082
+  199  GRMZM2G106560
+  200  GRMZM2G371167
+  201  GRMZM2G332280
+  202  GRMZM2G327349
+  203  GRMZM2G130943
+  204  GRMZM2G044493
+  205  GRMZM2G034815
+  206  GRMZM2G115705
+  207  GRMZM2G447795
+  208  GRMZM2G016039
+  209  GRMZM2G493395
+  210  GRMZM5G849600
+  211  GRMZM2G331393
+  212  GRMZM2G166642
+  213  GRMZM2G422340
+  214  GRMZM2G042030
+  215  GRMZM2G057841
+  216  GRMZM2G084086
+  217  GRMZM2G007481
+  218  GRMZM2G150242
+  219  GRMZM2G015753
+  220  GRMZM2G174128
+  221  GRMZM2G078129
+  222  GRMZM2G002555
+  223  GRMZM2G119523
+  224  GRMZM2G158342
+  225  GRMZM2G303509
+  226  GRMZM2G387360
+  227  GRMZM2G478160
+  228  GRMZM2G021378
+  229  GRMZM2G053909
+  230  GRMZM2G337768
+  231  GRMZM2G010962
+  232  GRMZM2G127224
+  233  GRMZM2G046743
+  234  GRMZM2G339562
+  235  GRMZM2G164967
+  236  GRMZM2G138589
+  237  GRMZM2G466298
+  238  GRMZM2G000932
+  239  GRMZM2G305148
+  240  GRMZM2G082520
+  241  GRMZM2G081502
+  242  GRMZM2G088121
+  243  GRMZM2G700866
+  244  vi top100.sorted.cuffdiff.out
+  245  ls
+  246  cuffdiff.txt
+  247  head -c 100 cuffdiff.txt
+  248  head 100 cuffdiff.txt
+  249  man head
+  250  head -n 100 cuffdiff.txt
+  251  head -n 100 sorted.cuffdiff.out
+  252  cd problemsets
+  253  ls
+  254  head -n 100 sorted.cuffdiff.out
+  255  head -n 100 top100.sorted.cuffdiff.out
+  256  cut -c 1-13 sorted.cuffdiff.out
+  257  vi sorted.cuffdiff.out
+  258  ls
+  259  cd GitHub
+  260  mkdir files
+  261  ls
+  262  cd ~
+  263  ls
+  264  cd problemsets
+  265  ls
+  266  man colrm
+  267  colrm If called with two parameters the columns
+  268         from the first column to the last column will be removed.
+  269  clorm 2 top100.sorted.cuffdiff.out
+  270  colrm 2 top100.sorted.cuffdiff.out
+  271  vi top100.sorted.cuffdiff.out
+  272  colrm 2 10 top100.sorted.cuffdiff.out
+  273  ls
+  274  cd problemsets
+  275  ls
+  276  vi top100.sorted.cuffdiff.out
+  277  colrm 2 top100.sorted.cuffdiff.out
+  278  colrm top100.sorted.cuffdiff.out
+  279  vi top100.sorted.cuffdiff.out
+  280  colrm top100.sorted.cuffdiff.out
+  281  vi top100.sorted.cuffdiff.out
+  282  ls
+  283  cd problemsets
+  284  ls
+  285  vi top100.sorted.cuffdiff.out
+  286  ~~~~~~~
+  287  ~0~~~~
+  288  s
+  289  pwd
+  290  ls
+  291  man mv
+  292  mv cancer.genes.fasta problemsets GitHub
+  293  mv cancer.genes.fasta problemsets GitHub/files
+  294  cd ~
+  295  cd GitHub
+  296  ls
+  297  cd ~
+  298  cd problemsets
+  299  mv cancer.genes.fasta problemsets ~/GitHub/files
+  300  mv cancer.genes.fasta ~/problemsets ~/GitHub/files
+  301  mv cancer.genes.fasta /home/GitHub/files
+  302  mv cancer.genes.fasta /home
+  303  mv cancer.genes.fasta /~
+  304  ls
+  305  cd ~
+  306  ls
+  307  cd GitHub
+  308  ls
+  309  cd files
+  310  ls
+  311  git add files/cancer.genes.fasta
+  312  git add cancer.genes.fasta
+  313  git commit -m 'adding cancer.genes.fasta'
+  314  git push
+  315  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
+  316  git add cancer.genes.fasta
+  317  git commit -m 'adding cancer.genes.fasta'
+  318  git push
+  319  vi mysequences.txt
+  320  ls
+  321  cd GitHub
+  322  cd 
+  323  ls
+  324  cd GitHub
+  325  ls
+  326  cd files
+  327  ls
+  328  cd problemsets
+  329  ls
+  330  cd ~/GitHub/files
+  331  mkdir fastas
+  332  ls
+  333  mv cancer.genes.fasta fastas
+  334  ls
+  335  cd fastas
+  336  ls
+  337  git add cancer.genes.fasta
+  338  git commit -m 'adding cancer.genes.fasta'
+  339  git push
+  340  cd ~/GitHub/files
+  341  ls
+  342  ls -al ~/.ssh
+  343  ls
+  344  cd GitHub
+  345  ls
+  346  cd files
+  347  ls
+  348  cd problemsets
+  349  ls
+  350  cd ..
+  351  vi oops
+  352  ls
+  353  git status
+  354  git rm oops
+  355  cd ..
+  356  cd files
+  357  ls
+  358  git rm oops
+  359  git add oops
+  360  git commit -m 'adding oops'
+  361  git push
+  362  git rm oops
+  363  git commit -m 'removing oops'
+  364  git push
+  365  vi never
+  366  ls
+  367  git add never
+  368  git reset never
+  369  history
+  370  history > unixBasics.history.txt
