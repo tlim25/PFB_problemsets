@@ -49,10 +49,6 @@ for gene in genes.keys():
 		codons1.append(genes[gene][i:i+3])
 	reverseSeq.append(genes[gene][::-1])
 	reverseSeq = ''.join(reverseSeq)
-	if len(codons1[len(codons1)-1]) == 1:
-		reverseSeq = reverseSeq[1:]
-	elif len(codons1[len(codons1)-1]) == 2:
-		reverseSeq = reverseSeq[2:]
 	for base in reverseSeq:
 		complementSeq.append(complementBase[base])
 	complementSeq = ''.join(complementSeq)
@@ -85,10 +81,6 @@ for gene in genes.keys():
 		codons2.append(genes[gene][i:i+3])
 	reverseSeq2.append(genes[gene][::-1])
 	reverseSeq2 = ''.join(reverseSeq2)
-	if len(codons2[len(codons2)-1]) == 1:
-		reverseSeq2 = reverseSeq2[1:]
-	elif len(codons2[len(codons2)-1]) == 2:
-		reverseSeq2 = reverseSeq2[2:]
 	for base in reverseSeq2:
 		complementSeq2.append(complementBase[base])
 	complementSeq2 = ''.join(complementSeq2)
@@ -118,10 +110,6 @@ for gene in genes.keys():
 		codons3.append(genes[gene][i:i+3])
 	reverseSeq3.append(genes[gene][::-1])
 	reverseSeq3 = ''.join(reverseSeq3)
-	if len(codons3[len(codons3)-1]) == 1:
-		reverseSeq3 = reverseSeq3[1:]
-	elif len(codons3[len(codons3)-1]) == 2:
-		reverseSeq3 = reverseSeq3[2:]
 	for base in reverseSeq3:
 		complementSeq3.append(complementBase[base])
 	complementSeq3 = ''.join(complementSeq3)
