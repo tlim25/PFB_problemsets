@@ -48,6 +48,7 @@ for gene in genes.keys():
 	for base in reverseSeq2:
 		complementSeq2.append(complementBase[base])
 	complementSeq2 = ''.join(complementSeq2)
+	complementSeq2 = complementSeq2[0:len(complementSeq2)-1]
 	for i in range (0, len(complementSeq2), 3):
 		complementar2.append(complementSeq2[i:i+3])
 	print(gene,'-frame2-codons\n',*codons2)
@@ -65,6 +66,7 @@ for gene in genes.keys():
 	for base in reverseSeq3:
 		complementSeq3.append(complementBase[base])
 	complementSeq3 = ''.join(complementSeq3)
+	complementSeq3 = complementSeq3[0:len(complementSeq3)-2]
 	for i in range (0, len(complementSeq3), 3):
 		complementar3.append(complementSeq3[i:i+3])
 	print(gene,'-frame3-codons\n',*codons3)
