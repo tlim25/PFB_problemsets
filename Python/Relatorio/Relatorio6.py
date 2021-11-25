@@ -62,13 +62,13 @@ for gene in genes.keys():
 	translation = ''.join(translation).split('M')
 # a função max() retorna o maior valor da lista
 	longest = max(translation, key=len)
-	print(gene,'-frame1-longest peptide\n',longest+'M')
+	print(gene,'-frame1-longest peptide\n',longest.lstrip())
 	for codon in complementar:
 		if len(codon) == 3:
 			translationComp.append(translation_table[codon])
 	translationComp = ''.join(translationComp).split('M')
 	longestComp = max(translationComp, key=len)
-	print(gene,'-frame1-comp-longest peptide\n',longestComp+'M')
+	print(gene,'-frame1-comp-longest peptide\n',longestComp.lstrip())
 
 #repetindo o processo para o segundo reading frame
 	codons2 = []
@@ -91,13 +91,13 @@ for gene in genes.keys():
 			translation2.append(translation_table[codon])
 	translation2 = ''.join(translation2).split('M')
 	longest2 = max(translation2, key=len)
-	print(gene,'-frame2-longest peptide\n',longest2+'M')
+	print(gene,'-frame2-longest peptide\n',longest2.lstrip())
 	for codon in complementar2:
 		if len(codon) == 3:
 			translationComp2.append(translation_table[codon])
 	translationComp2 = ''.join(translationComp2).split('M')
 	longestComp2 = max(translationComp2, key=len)
-	print(gene,'-frame2-comp-longest peptide\n',longestComp2+'M')	
+	print(gene,'-frame2-comp-longest peptide\n',longestComp2.lstrip())	
 
 #repetindo o processo para o terceiro reading frame
 	codons3 = []
@@ -120,11 +120,11 @@ for gene in genes.keys():
 			translation3.append(translation_table[codon])
 	translation3 = ''.join(translation3).split('M')
 	longest3 = max(translation3, key=len)
-	print(gene,'-frame3-longest peptide\n',longest3+'M')
+	print(gene,'-frame3-longest peptide\n',longest3.lstrip())
 	for codon in complementar3:
 		if len(codon) == 3:
 			translationComp3.append(translation_table[codon])
 	translationComp3 = ''.join(translationComp3).split('M')
 	longestComp3 = max(translationComp3, key=len)
-	print(gene,'-frame3-comp-longest peptide\n',longestComp3+'M')
+	print(gene,'-frame3-comp-longest peptide\n',longestComp3.lstrip())
 
